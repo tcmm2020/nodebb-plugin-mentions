@@ -14,11 +14,11 @@
 		{ "hook": "filter:notifications.addFilters", "method": "addFilters" },
 		{ "hook": "filter:user.notificationTypes", "method": "notificationTypes" }
 	],
+	"modules": {
+		"admin/plugins/mentions.js": "./static/admin.js"
+	},
 	"scripts": [
 		"static/autofill.js"
-	],
-	"acpScripts": [
-		"static/admin.js"
 	],
 	"languages": "languages",
 	"defaultLang": "en_GB",
