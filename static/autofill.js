@@ -85,7 +85,7 @@ $(document).ready(function() {
 
 	function loadDomUsers() {
 		var DOMusers = [];
-		$('[component="post"][data-uid!="0"]').each(function(idx, el) {
+		$('[data-component="post"][data-uid!="0"]').each(function(idx, el) {
 			var	username = el.getAttribute('data-username');
 			if (DOMusers.indexOf(username) === -1) {
 				DOMusers.push(username);
